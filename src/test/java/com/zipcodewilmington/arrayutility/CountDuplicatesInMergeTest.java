@@ -15,7 +15,7 @@ public class CountDuplicatesInMergeTest {
         Integer expected = 5;
         Integer[] inputArray = {1, 2, valueToEvaluate, 8, 4, 5, valueToEvaluate, 0, 9, 8, valueToEvaluate};
         Integer[] arrayToMerge = {1, 2, valueToEvaluate, 8, 4, 5, valueToEvaluate, 0, 9, 8};
-        ArrayUtility<Integer> arrayUtility = new ArrayUtility<Integer>(inputArray);
+        ArrayUtility<Integer> arrayUtility = new ArrayUtility<>(inputArray);
 
         // When
         Integer actual = arrayUtility.countDuplicatesInMerge(arrayToMerge, valueToEvaluate);
@@ -31,7 +31,7 @@ public class CountDuplicatesInMergeTest {
         Integer expected = 6;
         Long[] inputArray = {1L, 2L, valueToEvaluate, 8L, 4L, 5L, valueToEvaluate, 0L, 9L, 8L, valueToEvaluate};
         Long[] arrayToMerge = {1L, 2L, valueToEvaluate, 8L, 4L, 5L, valueToEvaluate, 0L, 9L, 8L, valueToEvaluate};
-        ArrayUtility<Long> arrayUtility = new ArrayUtility<Long>(inputArray);
+        ArrayUtility<Long> arrayUtility = new ArrayUtility<>(inputArray);
 
         // When
         Integer actual = arrayUtility.countDuplicatesInMerge(arrayToMerge, valueToEvaluate);
@@ -65,7 +65,7 @@ public class CountDuplicatesInMergeTest {
         Object[] inputArray = {"1", "2", valueToEvaluate, "8", "4", "5", valueToEvaluate, "0", "9", "8", valueToEvaluate};
         Object[] arrayToMerge = {"1", "2", valueToEvaluate, "8", "4", "5", valueToEvaluate, "0", "9", "8", valueToEvaluate, valueToEvaluate, valueToEvaluate};
 
-        ArrayUtility<Object> arrayUtility = new ArrayUtility<Object>(inputArray);
+        ArrayUtility<Object> arrayUtility = new ArrayUtility<>(inputArray);
 
         // When
         Integer actual = arrayUtility.countDuplicatesInMerge(arrayToMerge, valueToEvaluate);
